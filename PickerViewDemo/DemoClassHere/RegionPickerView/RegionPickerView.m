@@ -818,7 +818,7 @@
         [delegate regionPickerView:self region:self.regionStr clickedButtonAtIndex:1];
     }
     
-    if ([delegate respondsToSelector:@selector(regionPickerViewCancel::)])
+    if ([delegate respondsToSelector:@selector(regionPickerViewCancel:)])
     {
         [delegate regionPickerViewCancel:self];
     }
