@@ -12,6 +12,7 @@
 		D51C85071C701DBC001C90C3 /* TimeScopeTwoPickersView.m in Sources */ = {isa = PBXBuildFile; fileRef = D51C85031C701DBC001C90C3 /* TimeScopeTwoPickersView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D558F1131C7044F300D26B43 /* ChinaArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = D558F1121C7044F300D26B43 /* ChinaArea.plist */; };
 		D558F1141C70454700D26B43 /* RegionPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D51C84FD1C701DBC001C90C3 /* RegionPickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D558F15B1C7188B500D26B43 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D558F15A1C7188B500D26B43 /* DatePickerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D56F6CE41C700AB2004FCC01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D56F6CE31C700AB2004FCC01 /* main.m */; };
 		D56F6CE71C700AB2004FCC01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D56F6CE61C700AB2004FCC01 /* AppDelegate.m */; };
 		D56F6CEA1C700AB2004FCC01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56F6CE91C700AB2004FCC01 /* ViewController.m */; };
@@ -31,6 +32,8 @@
 		D51C85021C701DBC001C90C3 /* TimeScopeTwoPickersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeScopeTwoPickersView.h; sourceTree = "<group>"; };
 		D51C85031C701DBC001C90C3 /* TimeScopeTwoPickersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeScopeTwoPickersView.m; sourceTree = "<group>"; };
 		D558F1121C7044F300D26B43 /* ChinaArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ChinaArea.plist; path = PickerViewDemo/ChinaArea.plist; sourceTree = "<group>"; };
+		D558F1591C7188B500D26B43 /* DatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerView.h; sourceTree = "<group>"; };
+		D558F15A1C7188B500D26B43 /* DatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerView.m; sourceTree = "<group>"; };
 		D56F6CDF1C700AB2004FCC01 /* PickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D56F6CE31C700AB2004FCC01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D56F6CE51C700AB2004FCC01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,6 +63,7 @@
 		D51C84F71C701DBC001C90C3 /* DemoClassHere */ = {
 			isa = PBXGroup;
 			children = (
+				D558F1581C7188B500D26B43 /* DatePickerView */,
 				D51C84F81C701DBC001C90C3 /* OnePickerView */,
 				D51C84FE1C701DBC001C90C3 /* ScopeTwoPickersView */,
 				D51C85011C701DBC001C90C3 /* TimeScopeTwoPickersView */,
@@ -102,6 +106,15 @@
 				D51C85031C701DBC001C90C3 /* TimeScopeTwoPickersView.m */,
 			);
 			path = TimeScopeTwoPickersView;
+			sourceTree = "<group>";
+		};
+		D558F1581C7188B500D26B43 /* DatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				D558F1591C7188B500D26B43 /* DatePickerView.h */,
+				D558F15A1C7188B500D26B43 /* DatePickerView.m */,
+			);
+			path = DatePickerView;
 			sourceTree = "<group>";
 		};
 		D56F6CD61C700AB2004FCC01 = {
@@ -221,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D558F15B1C7188B500D26B43 /* DatePickerView.m in Sources */,
 				D51C85071C701DBC001C90C3 /* TimeScopeTwoPickersView.m in Sources */,
 				D51C85061C701DBC001C90C3 /* ScopeTwoPickersView.m in Sources */,
 				D558F1141C70454700D26B43 /* RegionPickerView.m in Sources */,
